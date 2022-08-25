@@ -1,6 +1,7 @@
 import "./App.css";
-import ParentComponent from "./comopent/ParentComponent";
-import UserGreeting from "./comopent/UserGreeting";
+import NameList from "./comopent/NameList";
+// import ParentComponent from "./comopent/ParentComponent";
+// import UserGreeting from "./comopent/UserGreeting";
 // import EventBind from "./comopent/EventBind";
 // import Greet from './comopent/Greet';
 // import Message from './comopent/Message';
@@ -12,7 +13,8 @@ import UserGreeting from "./comopent/UserGreeting";
 function App() {
   return (
     <div className="App">
-      <UserGreeting/>
+      <NameList/>
+      {/* <UserGreeting/> */}
       {/* <ParentComponent/> */}
       {/* <EventBind /> */}
       {/* <ClassClick /> */}
