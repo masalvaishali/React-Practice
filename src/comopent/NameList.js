@@ -1,46 +1,46 @@
 import React from "react";
 import Person from "./Person";
 function NameList() {
-    //   const names = ["abc", "asss", "sjdg", "shudw"]; // array method
-    //   const nameList = names.map((name) => <h2>{name} </h2>);
-    //   return <div>{nameList} </div>;
+  //   const names = ["abc", "asss", "sjdg", "shudw"]; // array method
+  //   const nameList = names.map((name) => <h2>{name} </h2>);
+  //   return <div>{nameList} </div>;
+  const names = ["abc", "asss", "sjdg", "shudw"]; // array method
+  const nameList = names.map((name, index) => <h2 key={index} >{index} {name} </h2>);
+  return <div>{nameList} </div>;
+  //for an object
+  const persons = [
+    {
+      id: 1,
+      name: "AbortController",
+      age: 23,
+      skill: "react",
+    },
+    {
+      id: 2,
+      name: "dfggt",
+      age: 24,
+      skill: "Angular",
+    },
+    {
+      id: 3,
+      name: "sdfd",
+      age: 27,
+      skill: "react",
+    },
+    {
+      id: 4,
+      name: "ftttttty",
+      age: 94,
+      skill: "Vue",
+    },
+  ];
+  const personList = persons.map((person) => (
+    <Person key={person.id} person={person} />
+    // using props to pass this to another person named compoenent
+    // <h2>I am {person.name} with {person.id} I am {person.age} years. I know {person.skill} </h2>
+  ));
 
-    //for an object 
-    const persons = [
-        {
-            id: 1,
-            name: 'AbortController',
-            age: 23,
-            skill: 'react'
-        },
-        {
-            id: 2,
-            name: 'dfggt',
-            age: 24,
-            skill: 'Angular'
-        },
-        {
-            id: 3,
-            name: 'sdfd',
-            age: 27,
-            skill: 'react'
-        },
-        {
-            id: 4,
-            name: 'ftttttty',
-            age: 94,
-            skill: 'Vue'
-        },
-    ]
-    const personList = persons.map(person => ( <Person person = {person} /> // using props to pass this to another person named compoenent
-        // <h2>I am {person.name} with {person.id} I am {person.age} years. I know {person.skill} </h2>
-    ))
-
-    return (
-        <div>{personList} </div>
-    )
-
-
+//   return <div>{personList} </div>;
 
   //   return (
   //     <div>

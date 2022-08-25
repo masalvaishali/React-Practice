@@ -1,5 +1,6 @@
 import "./App.css";
-import NameList from "./comopent/NameList";
+import Stylesheet from "./comopent/Stylesheet";
+// import NameList from "./comopent/NameList";
 // import ParentComponent from "./comopent/ParentComponent";
 // import UserGreeting from "./comopent/UserGreeting";
 // import EventBind from "./comopent/EventBind";
@@ -13,7 +14,8 @@ import NameList from "./comopent/NameList";
 function App() {
   return (
     <div className="App">
-      <NameList/>
+      <Stylesheet  primary={true}/>
+      {/* <NameList/> */}
       {/* <UserGreeting/> */}
       {/* <ParentComponent/> */}
       {/* <EventBind /> */}
