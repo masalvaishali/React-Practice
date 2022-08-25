@@ -1,5 +1,5 @@
 import React from "react";
-
+import Person from "./Person";
 function NameList() {
     //   const names = ["abc", "asss", "sjdg", "shudw"]; // array method
     //   const nameList = names.map((name) => <h2>{name} </h2>);
@@ -32,8 +32,8 @@ function NameList() {
             skill: 'Vue'
         },
     ]
-    const personList = persons.map(person => (
-        <h2>I am {person.name} with {person.id} I am {person.age} years. I know {person.skill} </h2>
+    const personList = persons.map(person => ( <Person person = {person} /> // using props to pass this to another person named compoenent
+        // <h2>I am {person.name} with {person.id} I am {person.age} years. I know {person.skill} </h2>
     ))
 
     return (
