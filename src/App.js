@@ -1,5 +1,6 @@
 import "./App.css";
-import Stylesheet from "./comopent/Stylesheet";
+import Inline from "./comopent/Inline";
+// import Stylesheet from "./comopent/Stylesheet";
 // import NameList from "./comopent/NameList";
 // import ParentComponent from "./comopent/ParentComponent";
 // import UserGreeting from "./comopent/UserGreeting";
@@ -14,7 +15,8 @@ import Stylesheet from "./comopent/Stylesheet";
 function App() {
   return (
     <div className="App">
-      <Stylesheet  primary={true}/>
+      <Inline />
+      {/* <Stylesheet  primary={true}/> */}
       {/* <NameList/> */}
       {/* <UserGreeting/> */}
       {/* <ParentComponent/> */}
