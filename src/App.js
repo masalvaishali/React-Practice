@@ -1,5 +1,7 @@
 import "./App.css";
-import Inline from "./comopent/Inline";
+import './appStyles.css'
+import styles from './appStyles.module.css'
+// import Inline from "./comopent/Inline";
 // import Stylesheet from "./comopent/Stylesheet";
 // import NameList from "./comopent/NameList";
 // import ParentComponent from "./comopent/ParentComponent";
@@ -15,7 +17,9 @@ import Inline from "./comopent/Inline";
 function App() {
   return (
     <div className="App">
-      <Inline />
+      <h1 className="error"> Error  </h1>
+      <h1 className={styles.sucess} >Sucess</h1>
+      {/* <Inline /> */}
       {/* <Stylesheet  primary={true}/> */}
       {/* <NameList/> */}
       {/* <UserGreeting/> */}
