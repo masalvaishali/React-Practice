@@ -1,6 +1,7 @@
 import "./App.css";
-import './appStyles.css'
-import styles from './appStyles.module.css'
+import Form from "./comopent/Form";
+// import './appStyles.css'
+// import styles from './appStyles.module.css'
 // import Inline from "./comopent/Inline";
 // import Stylesheet from "./comopent/Stylesheet";
 // import NameList from "./comopent/NameList";
@@ -17,8 +18,9 @@ import styles from './appStyles.module.css'
 function App() {
   return (
     <div className="App">
-      <h1 className="error"> Error  </h1>
-      <h1 className={styles.sucess} >Sucess</h1>
+      <Form />
+      {/* <h1 className="error"> Error  </h1>
+      <h1 className={styles.sucess} >Sucess</h1> */}
       {/* <Inline /> */}
       {/* <Stylesheet  primary={true}/> */}
       {/* <NameList/> */}
