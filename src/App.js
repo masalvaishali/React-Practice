@@ -1,5 +1,6 @@
 import "./App.css";
-import Form from "./comopent/Form";
+import LifcycleA from "./comopent/LifcycleA";
+// import Form from "./comopent/Form";
 // import './appStyles.css'
 // import styles from './appStyles.module.css'
 // import Inline from "./comopent/Inline";
@@ -18,7 +19,8 @@ import Form from "./comopent/Form";
 function App() {
   return (
     <div className="App">
-      <Form />
+      <LifcycleA/>
+      {/* <Form /> */}
       {/* <h1 className="error"> Error  </h1>
       <h1 className={styles.sucess} >Sucess</h1> */}
       {/* <Inline /> */}
