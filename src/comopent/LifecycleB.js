@@ -7,18 +7,30 @@ import React, { Component } from 'react'
       this.state = {
          name:'Vaishali'
       }
-      console.log('Lifecycle Constructor method');
+      console.log('LifecycleB Constructor method');
     }
     static getDerivedStateFromProps(state,props){
-        console.log('Lifecycle getDerivedStateFromProps Methos ');
+        console.log('LifecycleB getDerivedStateFromProps Methos ');
         return null
     }
 
     componentDidMount(){
-        console.log('Lifecycle componentDidMount Methos ');
+        console.log('LifecycleB componentDidMount Methos ');
     }
+    shouldComponentUpdate() {
+        console.log("LifecycleB shouldComponentUpdate Method ");
+        return true;
+      }
+      getSnapshotBeforeUpdate(pervProps,pervState) {
+        console.log("LifecycleB getSnapshotBeforeUpdate Method ");
+        return null;
+      }
+      componentDidUpdate() {
+        console.log("LifecycleB componentDidUpdate Method ");
+      }
+
   render() {
-    console.log('Lifecycle render Methos ')
+    console.log('LifecycleB render Methos ')
     return (
       <div>Lifcycle B</div>
     )

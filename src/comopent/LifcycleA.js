@@ -8,21 +8,38 @@ class LifcycleA extends Component {
     this.state = {
       name: "Vaishali",
     };
-    console.log("Lifecycle Constructor method");
+    console.log("LifecycleA Constructor method");
   }
   static getDerivedStateFromProps(state, props) {
-    console.log("Lifecycle getDerivedStateFromProps Methos ");
+    console.log("LifecycleA getDerivedStateFromProps Method ");
     return null;
   }
 
   componentDidMount() {
-    console.log("Lifecycle componentDidMount Methos ");
+    console.log("LifecycleA componentDidMount Method ");
+  }
+  shouldComponentUpdate() {
+    console.log("LifecycleA shouldComponentUpdate Method ");
+    return true;
+  }
+  getSnapshotBeforeUpdate(pervProps,pervState) {
+    console.log("LifecycleA getSnapshotBeforeUpdate Method ");
+    return null;
+  }
+  componentDidUpdate() {
+    console.log("LifecycleA componentDidUpdate Method ");
+  }
+  changeState=()=> {
+    this.setState({
+        name:'Masal'
+    })
   }
   render() {
-    console.log("Lifecycle render Methos ");
+    console.log("LifecycleA render Method ");
     return (
       <div>
         <div>Lifcycle A</div>
+        <button onClick={this.changeState}>Change State </button>
         <LifcycleB />
       </div>
     );
