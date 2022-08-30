@@ -1,5 +1,10 @@
 import "./App.css";
-import LifcycleA from "./comopent/LifcycleA";
+import RefDemo from "./comopent/RefDemo";
+// import ParentComp from "./comopent/ParentComp";
+// import PureComp from "./comopent/PureComp";
+// import Tables from "./comopent/Tables";
+// import FragmentDemo from "./comopent/FragmentDemo";
+// import LifcycleA from "./comopent/LifcycleA";
 // import Form from "./comopent/Form";
 // import './appStyles.css'
 // import styles from './appStyles.module.css'
@@ -19,7 +24,11 @@ import LifcycleA from "./comopent/LifcycleA";
 function App() {
   return (
     <div className="App">
-      <LifcycleA/>
+      <RefDemo/>
+      {/* <ParentComp /> */}
+      {/* <Tables/> */}
+      {/* <FragmentDemo/> */}
+      {/* <LifcycleA/> */}
       {/* <Form /> */}
       {/* <h1 className="error"> Error  </h1>
       <h1 className={styles.sucess} >Sucess</h1> */}
