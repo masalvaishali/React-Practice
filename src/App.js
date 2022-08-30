@@ -1,5 +1,6 @@
 import "./App.css";
-import FocusInputRef from "./comopent/FocusInputRef";
+import ForwordRefParentInput from "./comopent/ForwordRefParentInput";
+// import FocusInputRef from "./comopent/FocusInputRef";
 // import RefDemo from "./comopent/RefDemo";
 // import ParentComp from "./comopent/ParentComp";
 // import PureComp from "./comopent/PureComp";
@@ -25,7 +26,8 @@ import FocusInputRef from "./comopent/FocusInputRef";
 function App() {
   return (
     <div className="App">
-      <FocusInputRef/>
+      <ForwordRefParentInput/>
+      {/* <FocusInputRef/> */}
       {/* <RefDemo/> */}
       {/* <ParentComp /> */}
       {/* <Tables/> */}
