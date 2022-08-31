@@ -1,5 +1,7 @@
 import "./App.css";
-import ForwordRefParentInput from "./comopent/ForwordRefParentInput";
+import ClickCounter from "./comopent/ClickCounter";
+// import PortalDemo from "./comopent/PortalDemo";
+// import ForwordRefParentInput from "./comopent/ForwordRefParentInput";
 // import FocusInputRef from "./comopent/FocusInputRef";
 // import RefDemo from "./comopent/RefDemo";
 // import ParentComp from "./comopent/ParentComp";
@@ -26,7 +28,9 @@ import ForwordRefParentInput from "./comopent/ForwordRefParentInput";
 function App() {
   return (
     <div className="App">
-      <ForwordRefParentInput/>
+      <ClickCounter/>
+      {/* <PortalDemo/> */}
+      {/* <ForwordRefParentInput/> */}
       {/* <FocusInputRef/> */}
       {/* <RefDemo/> */}
       {/* <ParentComp /> */}
