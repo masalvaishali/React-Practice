@@ -1,5 +1,6 @@
 import "./App.css";
 import ClickCounter from "./comopent/ClickCounter";
+import HoverCounter from "./comopent/HoverCounter";
 // import PortalDemo from "./comopent/PortalDemo";
 // import ForwordRefParentInput from "./comopent/ForwordRefParentInput";
 // import FocusInputRef from "./comopent/FocusInputRef";
@@ -28,6 +29,7 @@ import ClickCounter from "./comopent/ClickCounter";
 function App() {
   return (
     <div className="App">
+      <HoverCounter/>
       <ClickCounter/>
       {/* <PortalDemo/> */}
       {/* <ForwordRefParentInput/> */}
