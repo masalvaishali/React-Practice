@@ -6,6 +6,8 @@ import UseStatewithArray from "./comopent/UseStatewithArray";
 import UseEffectHook from "./comopent/UseEffectHook";
 import HookUseEffectMouseClick from "./comopent/HookUseEffectMouseClick";
 import HookUseEffectMouseClickCleanUp from "./comopent/HookUseEffectMouseClickCleanUp";
+import IntervalClassCounter from "./comopent/IntervalClassCounter";
+import IntervalHookCounter from "./comopent/IntervalHookCounter";
 // import PortalDemo from "./comopent/PortalDemo";
 // import ForwordRefParentInput from "./comopent/ForwordRefParentInput";
 // import FocusInputRef from "./comopent/FocusInputRef";
@@ -34,7 +36,9 @@ import HookUseEffectMouseClickCleanUp from "./comopent/HookUseEffectMouseClickCl
 function App() {
   return (
     <div className="App">
-      <HookUseEffectMouseClickCleanUp/>
+      <IntervalClassCounter />
+      <IntervalHookCounter />
+      {/* <HookUseEffectMouseClickCleanUp/> */}
       {/* <HookUseEffectMouseClick /> */}
       {/* <UseEffectHook /> */}
       {/* <UseStatewithArray/> */}
