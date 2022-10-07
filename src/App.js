@@ -1,6 +1,11 @@
 import "./App.css";
 import ClickCounter from "./comopent/ClickCounter";
+import HookCounterObject from "./comopent/HookCounterObject";
 import HoverCounter from "./comopent/HoverCounter";
+import UseStatewithArray from "./comopent/UseStatewithArray";
+import UseEffectHook from "./comopent/UseEffectHook";
+import HookUseEffectMouseClick from "./comopent/HookUseEffectMouseClick";
+import HookUseEffectMouseClickCleanUp from "./comopent/HookUseEffectMouseClickCleanUp";
 // import PortalDemo from "./comopent/PortalDemo";
 // import ForwordRefParentInput from "./comopent/ForwordRefParentInput";
 // import FocusInputRef from "./comopent/FocusInputRef";
@@ -29,8 +34,13 @@ import HoverCounter from "./comopent/HoverCounter";
 function App() {
   return (
     <div className="App">
-      <HoverCounter/>
-      <ClickCounter/>
+      <HookUseEffectMouseClickCleanUp/>
+      {/* <HookUseEffectMouseClick /> */}
+      {/* <UseEffectHook /> */}
+      {/* <UseStatewithArray/> */}
+      {/* <HookCounterObject/> */}
+      {/* <HoverCounter/> */}
+      {/* <ClickCounter/> */}
       {/* <PortalDemo/> */}
       {/* <ForwordRefParentInput/> */}
       {/* <FocusInputRef/> */}
