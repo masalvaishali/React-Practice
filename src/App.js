@@ -12,6 +12,7 @@ import FetchingDataFromApi from "./comopent/FetchingDataFromApi";
 import UseContextCompA from "./comopent/UseContextCompA";
 import UseContextCompB from "./comopent/UseContextCompB";
 import UseReducerCounterOne from "./comopent/UseReducerCounterOne";
+import UseReducerCounterTwo from "./comopent/UseReducerCounterTwo";
 // import PortalDemo from "./comopent/PortalDemo";
 // import ForwordRefParentInput from "./comopent/ForwordRefParentInput";
 // import FocusInputRef from "./comopent/FocusInputRef";
@@ -40,8 +41,8 @@ import UseReducerCounterOne from "./comopent/UseReducerCounterOne";
 function App() {
   return (
     <div className="App">
-
-      <UseReducerCounterOne />
+     <UseReducerCounterTwo />
+      {/* <UseReducerCounterOne /> */}
       {/* <UseContextCompA /> */}
       {/* <UseContextCompB/> */}
       {/* <FetchingDataFromApi/> */}
