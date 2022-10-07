@@ -11,6 +11,7 @@ import IntervalHookCounter from "./comopent/IntervalHookCounter";
 import FetchingDataFromApi from "./comopent/FetchingDataFromApi";
 import UseContextCompA from "./comopent/UseContextCompA";
 import UseContextCompB from "./comopent/UseContextCompB";
+import UseReducerCounterOne from "./comopent/UseReducerCounterOne";
 // import PortalDemo from "./comopent/PortalDemo";
 // import ForwordRefParentInput from "./comopent/ForwordRefParentInput";
 // import FocusInputRef from "./comopent/FocusInputRef";
@@ -39,7 +40,9 @@ import UseContextCompB from "./comopent/UseContextCompB";
 function App() {
   return (
     <div className="App">
-      <UseContextCompA />
+
+      <UseReducerCounterOne />
+      {/* <UseContextCompA /> */}
       {/* <UseContextCompB/> */}
       {/* <FetchingDataFromApi/> */}
       {/* <IntervalClassCounter />
