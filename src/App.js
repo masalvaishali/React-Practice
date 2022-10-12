@@ -1,18 +1,20 @@
 import "./App.css";
-import ClickCounter from "./comopent/ClickCounter";
-import HookCounterObject from "./comopent/HookCounterObject";
-import HoverCounter from "./comopent/HoverCounter";
-import UseStatewithArray from "./comopent/UseStatewithArray";
-import UseEffectHook from "./comopent/UseEffectHook";
-import HookUseEffectMouseClick from "./comopent/HookUseEffectMouseClick";
-import HookUseEffectMouseClickCleanUp from "./comopent/HookUseEffectMouseClickCleanUp";
-import IntervalClassCounter from "./comopent/IntervalClassCounter";
-import IntervalHookCounter from "./comopent/IntervalHookCounter";
-import FetchingDataFromApi from "./comopent/FetchingDataFromApi";
-import UseContextCompA from "./comopent/UseContextCompA";
-import UseContextCompB from "./comopent/UseContextCompB";
-import UseReducerCounterOne from "./comopent/UseReducerCounterOne";
-import UseReducerCounterTwo from "./comopent/UseReducerCounterTwo";
+// import ClickCounter from "./comopent/ClickCounter";
+// import HookCounterObject from "./comopent/HookCounterObject";
+// import HoverCounter from "./comopent/HoverCounter";
+// import UseStatewithArray from "./comopent/UseStatewithArray";
+// import UseEffectHook from "./comopent/UseEffectHook";
+// import HookUseEffectMouseClick from "./comopent/HookUseEffectMouseClick";
+// import HookUseEffectMouseClickCleanUp from "./comopent/HookUseEffectMouseClickCleanUp";
+// import IntervalClassCounter from "./comopent/IntervalClassCounter";
+// import IntervalHookCounter from "./comopent/IntervalHookCounter";
+// import FetchingDataFromApi from "./comopent/FetchingDataFromApi";
+// import UseContextCompA from "./comopent/UseContextCompA";
+// import UseContextCompB from "./comopent/UseContextCompB";
+// import UseReducerCounterOne from "./comopent/UseReducerCounterOne";
+// import UseReducerCounterTwo from "./comopent/UseReducerCounterTwo";
+// import UseReducerCounterThree from "./comopent/UseReducerCounterThree";
+import ParentComponent from "./comopent/useCallbackHook/ParentComponent";
 // import PortalDemo from "./comopent/PortalDemo";
 // import ForwordRefParentInput from "./comopent/ForwordRefParentInput";
 // import FocusInputRef from "./comopent/FocusInputRef";
@@ -41,7 +43,9 @@ import UseReducerCounterTwo from "./comopent/UseReducerCounterTwo";
 function App() {
   return (
     <div className="App">
-     <UseReducerCounterTwo />
+      <ParentComponent />
+      {/* <UseReducerCounterThree /> */}
+     {/* <UseReducerCounterTwo /> */}
       {/* <UseReducerCounterOne /> */}
       {/* <UseContextCompA /> */}
       {/* <UseContextCompB/> */}
