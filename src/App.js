@@ -1,4 +1,9 @@
 import "./App.css";
+import DocTitleOne from "./comopent/customeHook/DocTitleOne";
+import DocTitleTwo from "./comopent/customeHook/DocTitleTwo";
+// import Counter from "./comopent/memoHook/counter";
+// import ClassTimer from "./comopent/useRefHook/ClassTimer";
+// import HookTimer from "./comopent/useRefHook/HookTimer";
 // import ClickCounter from "./comopent/ClickCounter";
 // import HookCounterObject from "./comopent/HookCounterObject";
 // import HoverCounter from "./comopent/HoverCounter";
@@ -14,7 +19,7 @@ import "./App.css";
 // import UseReducerCounterOne from "./comopent/UseReducerCounterOne";
 // import UseReducerCounterTwo from "./comopent/UseReducerCounterTwo";
 // import UseReducerCounterThree from "./comopent/UseReducerCounterThree";
-import ParentComponent from "./comopent/useCallbackHook/ParentComponent";
+// import ParentComponent from "./comopent/useCallbackHook/ParentComponent";
 // import PortalDemo from "./comopent/PortalDemo";
 // import ForwordRefParentInput from "./comopent/ForwordRefParentInput";
 // import FocusInputRef from "./comopent/FocusInputRef";
@@ -43,9 +48,15 @@ import ParentComponent from "./comopent/useCallbackHook/ParentComponent";
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <DocTitleOne/>
+      <DocTitleTwo/>
+      {/* <FocusInput /> */}
+      {/* <ClassTimer />
+      <HookTimer /> */}
+      {/* <Counter/> */}
+      {/* <ParentComponent /> */}
       {/* <UseReducerCounterThree /> */}
-     {/* <UseReducerCounterTwo /> */}
+      {/* <UseReducerCounterTwo /> */}
       {/* <UseReducerCounterOne /> */}
       {/* <UseContextCompA /> */}
       {/* <UseContextCompB/> */}
